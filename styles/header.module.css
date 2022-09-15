@@ -1,0 +1,136 @@
+.navbar {
+  overflow: hidden;
+  display: flex;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: "Times New Roman", Times, serif, inherit;
+  margin: 0;
+}
+
+/* .navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+} */
+
+.dropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdowncontent a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdowncontent a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdowncontent {
+  display: block;
+}
+.content2 {
+  text-align: center;
+  font-size: 100px;
+}
+.tpp {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 40px;
+}
+.content {
+  text-align: center;
+  height: 600px;
+  padding-top: 200px;
+}
+.content1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  font-style: italic;
+}
+.btncontent {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 150%;
+  color:inherit;
+  background-color: inherit;
+}
+.headtool{
+  height: 100px;
+  color:inherit;
+  background-Color: transparent;
+}
+.searchic{
+  padding-right: 10px;
+}
+.btncontent:hover {
+  background-color: white;
+  color: black;
+}
+.body2{
+  text-align: center;
+  display: flex;
+  background-color: white;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.imagebody2{
+  text-align: center;
+  margin: 30px;
+  
+}
+.bodyconten2{
+  text-align: center;
+}
+.contenp1{
+  text-align: center;
+  color: gray;
+}
+.contenp2{
+  text-align: center;
+}
+.contenp3{
+  text-align: center;
+  font-style: italic;
+  color: rgb(17, 7, 162);
+}
+.contenp4{
+  text-align: center;
+}
+.item:hover {
+  background-color: blueviolet;
+  color: black;
+}
+.grid{
+  
+}
