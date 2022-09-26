@@ -58,8 +58,9 @@ export default function blogdetail({value}) {
 });
   return (
     <div>
-      <Box sx={{ flexGrow: 1 }} >
-        <Grid container spacing={3}>
+      <Appbarhea/>
+      <Box sx={{ flexGrow: 1 , margintop :"100px"}} >
+        <Grid container spacing={3} marginTop = {10}>
           <Grid item xs ={1}>
             <div></div>
           </Grid>
@@ -104,8 +105,7 @@ export default function blogdetail({value}) {
             </div>
           </Grid>
         </Grid>
-      </Box>    
-      
+      </Box>      
     </div>
   )
 }
