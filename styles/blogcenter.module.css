@@ -1,0 +1,50 @@
+.blogtitle{
+    text-align: center;
+}
+.titlecontent {
+    display: flex;
+    text-align: center;
+    background-color: white;
+  }
+  .title {
+    text-align: center;
+    background-color: white;
+  }
+.cttitle{
+padding-right: 10px;
+display: inline-block;
+}
+.contenauthor{
+    display: inline-block;
+}
+.blogimages{
+    margin: 100px;
+}
+.linkdetail {
+    overflow: hidden;
+    color: black;
+}
+.titlecontentdetail {
+  display: flex;
+  text-align: center;
+  background-color: white;
+}
+.titledetail {
+  background-color: white;
+}
+.detailtitle{
+  background-color: rgb(10, 21, 118);
+  color: white;
+  font-weight: bold;
+}
+.imalist{
+  display: flex;
+  text-align: center;
+}
+.imalisttitle{
+  font-weight: bold;
+  margin: 2px;
+}
+.recent{
+  font-weight: bold;
+}
